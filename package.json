@@ -1,0 +1,23 @@
+{
+  "name": "node-js-seed-project",
+  "version": "0.0.1",
+  "description": "ready-to-go TDD infra",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "livescript": "1.5.0",
+    "mocha": "2.5.3",
+    "respec-given": "0.0.12",
+    "testdouble": "1.4.3",
+    "testem": "1.9.1"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.ls",
+    "TDD": "testem"
+  },
+  "author": "cades kao <cadeskao@gmail.com> (https://github.com/cades)",
+  "license": "ISC"
+}

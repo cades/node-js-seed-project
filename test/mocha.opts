@@ -1,0 +1,10 @@
+--timeout 500
+--bail
+
+--compilers ls:livescript
+
+--require respec-given/na-loader/ls
+--require respec-given/enable-good-habit-mode
+
+-R respec-given/mocha/tap-reporter
+-u respec-given

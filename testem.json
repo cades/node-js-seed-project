@@ -1,0 +1,27 @@
+{
+  "framework": "mocha",
+  "launch_in_dev": ["SAFE", "Consumption", "Discovery", "Adapter"],
+  "launch_in_ci":  ["SAFE", "Consumption", "Discovery", "Adapter"],
+  "launchers": {
+    "SAFE": {
+      "command": "npm test -- test/SAFE/*.ls",
+      "protocol": "tap"
+    },
+    "Consumption": {
+      "command": "npm test -- test/Consumption/*.ls",
+      "protocol": "tap"
+    },
+    "Discovery": {
+      "command": "npm test -- test/Discovery/*.ls",
+      "protocol": "tap"
+    },
+    "Adapter": {
+      "command": "npm test -- test/Adapter/*.ls",
+      "protocol": "tap"
+    }
+  },
+  "src_files": [
+    "test/**/*.ls",
+    "lib/**/*.js"
+  ]
+}
